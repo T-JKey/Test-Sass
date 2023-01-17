@@ -1,0 +1,18 @@
+
+@import"./variables";
+
+@import"./header";
+
+  .contact {
+   @include flexCenter(column, rgb(123, 123, 207));
+   text-align: center;
+//    @extend header; kế thừa tất cả các kiểu trong header
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        color: red;
+        background-color: bisque;
+        border-color: blueviolet;
+    }
+  }/*# sourceMappingURL=style.css.map */

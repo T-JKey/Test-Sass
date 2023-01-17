@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(122, 187, 102);
+  height: 100vh;
+  color: rgb(75, 46, 46);
+}
+header button {
+  background: rgb(252, 136, 136);
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+header button:hover {
+  background: pink;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(123, 123, 207);
+  text-align: center;
+}
+.contact button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: red;
+  background-color: bisque;
+  border-color: blueviolet;
+}
+
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
